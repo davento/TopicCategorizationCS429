@@ -57,12 +57,12 @@ with:
 
 But is also aided by gradient descent, which consists of 
 
-$$W^{t+1} = W^{t} + \eta((\delta - P(Y|W,X))X - \lambda W^{t})$$
+$$W^{t+1} = W^{t} + \eta((\Delta - P(Y|W,X))X - \lambda W^{t})$$
 
 with:
 - $W$: weights matrix
 - $\eta$: learning rate
-- $\delta$: matrix with results from the Delta Equation
+- $\Delta$: matrix with results from the Delta Equation
 - $\lambda$: penalty term
 
 ## Results
