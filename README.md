@@ -38,7 +38,8 @@ Classifies according to the following rule: $$h_{NB}(X) = \arg\!\max_{y \in Y}P(
 ### Logistic Regression
 
 Classifies following the rule:
-$$lnP(D_{Y}| D_{X}, w) = \sum_{j=1}y^{j}(w_{0}+\sum_{i}^{n}w_{i}{x^{j}}_{i}) - ln(1 + exp(w_{0} + \sum_{i}^{n}w_{i}{x^{j}}_{i}))$$
+
+$$\ln P(D_{Y}| D_{X}, w) = \sum_{j=1}y^{j}(w_{0}+\sum_{i}^{n}w_{i}{x^{j}}_{i}) - \ln(1 + exp(w_{0} + \sum_{i}^{n}w_{i}{x^{j}}_{i}))$$
 
 ## Results
 
