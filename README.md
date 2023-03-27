@@ -29,10 +29,17 @@ The code can be ran directly from the notebooks.
 
 ## Description
 
-The following is a project about **Naïve Bayes** and **Logistic Regression**. Its objective is to understand how to implement these models from scratch to understand how they work.
+The following is a project about **Naïve Bayes** and **Logistic Regression**. Its objective is to understand how to implement these models from scratch to understand how they work. A bag of words representation is used.
 
 ### Naïve Bayes
 
+Classifies according to the following rule: $$h_{NB}(X) = \arg\!\max_{y \in Y}P(y)\prod_{i=1}^{n}P(X_{i}|y)$$
 
 ### Logistic Regression
 
+Classifies following the rule:
+$$lnP(D_{Y}| D_{X}, w) = \sum_{j=1}y^{j}(w_{0}+\sum_{i}^{n}w_{i}{x^{j}}_{i}) - ln(1 + exp(w_{0} + \sum_{i}^{n}w_{i}{x^{j}}_{i}))$$
+
+## Results
+
+The results can be found in more detail on the report (`TopicCategorizationCS429.pdf`)
