@@ -1,0 +1,7 @@
+name: topic-categorization
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - pip-tools
