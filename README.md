@@ -33,13 +33,31 @@ The following is a project about **Naïve Bayes** and **Logistic Regression**. I
 
 ### Naïve Bayes
 
-Classifies according to the following rule: $$h_{NB}(X) = \arg\!\max_{y \in Y}P(y)\prod_{i=1}^{n}P(X_{i}|y)$$
+Classifies according to the following rule: $$h_{NB}(X) = \arg\max_{y \in Y}P(y)\prod_{i=1}^{n}P(X_{i}|y)$$
 
 ### Logistic Regression
 
 Classifies following the rule:
 
 $$\ln P(D_{Y}| D_{X}, w) = \sum_{j=1}y^{j}(w_{0}+\sum_{i}^{n}w_{i}{x^{j}}_{i}) - \ln(1 + exp(w_{0} + \sum_{i}^{n}w_{i}{x^{j}}_{i}))$$
+
+with:
+- $D$: dataset
+- $Y$: class
+- $y$: instance of a class
+- $X$: features
+- $x$: instance of a feature
+- $w$: weights matrix
+
+But is also aided by gradient descent, which consists of 
+
+$$W^{t+1} = W^{t} + \eta((\delta - P(Y|W,X))X - \lambda W^{t})$$
+
+with:
+- $W$: weights matrix
+- $\eta$: learning rate
+- $\delta$: matrix with results from the Delta Equation
+- $\lambda$: penalty term
 
 ## Results
 
