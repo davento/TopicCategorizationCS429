@@ -35,6 +35,10 @@ The following is a project about **Naïve Bayes** and **Logistic Regression**. I
 
 Classifies according to the following rule: $$h_{NB}(X) = \arg\max_{y \in Y}P(y)\prod_{i=1}^{n}P(X_{i}|y)$$
 
+with:
+- $X$: features
+- $Y$: classes
+
 ### Logistic Regression
 
 Classifies following the rule:
