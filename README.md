@@ -19,13 +19,15 @@ This program is written entirely on **Python**. The libraries used for this proj
 - scikit-learn
 - tqdm
 - bokeh
-- imbalanced-learn 
+- imbalanced-learn
+
+It is recommended to create an environment with the packages above if running locally. The configuration for it can be found in `environment.yml`.
 
 The data necessary to run the code can be found in [the official 20 Newsgroups site](http://qwone.com/~jason/20Newsgroups) or [Kaggle](https://www.kaggle.com/competitions/cs429529-project-2-topic-categorization/data). Make sure to download it and place it in the same folder (or update the locations in the notebooks themselves) before running the notebooks.
 
 ## Execution
 
-The code can be ran directly from the notebooks.
+Activate the environment if working in one. The code can be ran directly from the notebooks.
 
 ## Description
 
